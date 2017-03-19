@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{034FC4E3-4371-4299-98E3-6E8DA7929E9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC35BBF1-853B-4012-BCDE-80841978B57C}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SportsStore", "src\SportsStore\SportsStore.xproj", "{D253B19C-9590-440A-A767-2793D4850118}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B90B2CA5-AE15-4F04-842E-C1E9F33ADA32}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SportsStore.Test", "SportsStore.Test\SportsStore.Test.xproj", "{7466A72F-5BD6-400D-A6BE-40F7D2D171E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D253B19C-9590-440A-A767-2793D4850118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D253B19C-9590-440A-A767-2793D4850118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D253B19C-9590-440A-A767-2793D4850118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D253B19C-9590-440A-A767-2793D4850118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7466A72F-5BD6-400D-A6BE-40F7D2D171E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7466A72F-5BD6-400D-A6BE-40F7D2D171E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7466A72F-5BD6-400D-A6BE-40F7D2D171E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7466A72F-5BD6-400D-A6BE-40F7D2D171E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D253B19C-9590-440A-A767-2793D4850118} = {034FC4E3-4371-4299-98E3-6E8DA7929E9E}
+		{7466A72F-5BD6-400D-A6BE-40F7D2D171E4} = {B90B2CA5-AE15-4F04-842E-C1E9F33ADA32}
+	EndGlobalSection
+EndGlobal

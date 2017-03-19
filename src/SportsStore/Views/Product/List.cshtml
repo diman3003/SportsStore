@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Product> 
+
+@foreach (var p in Model)
+{
+    <div>
+          <h3>@p.Name</h3>
+              @if (string.IsNullOrEmpty(p.Description)) {
+                  <p>Not Described</p>
+              } else {
+                  @p.Description;
+              }
+              <h4>@p.Price.ToString("c")</h4>
+    </div>
+}
