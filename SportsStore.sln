@@ -12,9 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SportsStore", "src\SportsStore\SportsStore.xproj", "{D253B19C-9590-440A-A767-2793D4850118}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B90B2CA5-AE15-4F04-842E-C1E9F33ADA32}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C74846F7-B286-4648-980A-0D1086F982F6}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SportsStore.Test", "SportsStore.Test\SportsStore.Test.xproj", "{7466A72F-5BD6-400D-A6BE-40F7D2D171E4}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ProductControllerTests.cs", "ProductControllerTests.cs\ProductControllerTests.cs.xproj", "{BBCA5576-5A9F-4F6C-B3F8-A63D27FD86BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,16 +26,16 @@ Global
 		{D253B19C-9590-440A-A767-2793D4850118}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D253B19C-9590-440A-A767-2793D4850118}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D253B19C-9590-440A-A767-2793D4850118}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7466A72F-5BD6-400D-A6BE-40F7D2D171E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7466A72F-5BD6-400D-A6BE-40F7D2D171E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7466A72F-5BD6-400D-A6BE-40F7D2D171E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7466A72F-5BD6-400D-A6BE-40F7D2D171E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBCA5576-5A9F-4F6C-B3F8-A63D27FD86BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBCA5576-5A9F-4F6C-B3F8-A63D27FD86BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBCA5576-5A9F-4F6C-B3F8-A63D27FD86BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBCA5576-5A9F-4F6C-B3F8-A63D27FD86BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D253B19C-9590-440A-A767-2793D4850118} = {034FC4E3-4371-4299-98E3-6E8DA7929E9E}
-		{7466A72F-5BD6-400D-A6BE-40F7D2D171E4} = {B90B2CA5-AE15-4F04-842E-C1E9F33ADA32}
+		{BBCA5576-5A9F-4F6C-B3F8-A63D27FD86BC} = {C74846F7-B286-4648-980A-0D1086F982F6}
 	EndGlobalSection
 EndGlobal
